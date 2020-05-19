@@ -22,7 +22,7 @@
 
 \newcommand{\mentiurl}[0]{{\url{www.menti.com}}}
 \newcommand{\menticode}[0]{{262943}}
-
+\newcommand{\correctanswer}[1]{\textcolor{blue}{{#1} \checkmark}}
 
 
 \usetheme{boxes}
@@ -79,7 +79,7 @@
       \item{The Universe is more-or-less the same everywhere and we are not in a `special' location.}
       \item{Einstein's theory (`General Relativity') correctly describes how gravity works.}
       \item{The overall geometry of the Universe is `flat': keep going in a straight line and you won't return home.}
-      \item{There was a Big Bang - an initial uniformly hot and dense state - and the Universe has been expanding ever since.}
+      \item{There was a Big Bang - an initial uniformly dense and hot state - and the Universe has been expanding and cooling ever since.}
     \end{itemize}
   \end{block}
 \end{frame}
@@ -98,7 +98,7 @@
     \begin{enumerate}
       \item{Left-over light from the Big Bang, the 'cosmic background radiation', dominates all other forms of energy}
       \item{About 75\% hydrogen, 24\% helium, 1\% everything else}
-      \item{\textcolor{blue}{5\% gas and stars; the rest we don't really know \checkmark}}
+      \item{\correctanswer{5\% gas and stars; the rest we don't really know}}
     \end{enumerate}
 \end{frame}
 
@@ -156,5 +156,69 @@
     \includegraphics[height=4cm]{simulation_z_1.png}
   \end{columns}
 \end{frame}
-  
+
+
+\begin{frame}{Why are there no dark matter galaxies and stars?}
+  \begin{block}{}
+    Go to \mentiurl{} (code \menticode{}) and choose one possibility:\\
+    \begin{enumerate}
+      \item{Dark matter particles move too fast - near the speed of light.}
+      \item{Dark matter can't cool down by emitting light.}
+      \item{Gravity acts only weakly on dark matter.}
+    \end{enumerate}
+  \end{block}
+\end{frame}
+
+
+\begin{frame}{Why are there no dark matter galaxies and stars?}
+  \begin{block}{}
+    \begin{enumerate}
+      \item{Dark matter particles move too fast - near the speed of light.}
+      \item{\correctanswer{Dark matter can't cool down by emitting light.}}
+      \item{Gravity acts only weakly on dark matter.}
+    \end{enumerate}
+  \end{block}
+\end{frame}
+
+\begin{frame}{Goal}
+  \begin{block}{}
+    \begin{enumerate}
+      \item{We want to map the distribution of dark matter on cosmological scales.}
+      \item{We can't see dark matter...}
+      \item{... but we can infer its location from its gravitational impact on light from distant galaxies.}
+      \item{Our main tool is `weak lensing' (WL)}
+    \end{enumerate}
+  \end{block}
+\end{frame}
+
+
+\begin{frame}{Weak lensing}
+  \begin{block}{}
+    \begin{itemize}
+      \item{The gravity of dark matter bends the space and hence the trajectory of light from distant galaxies.}
+      \item{We can't see dark matter...}
+      \item{... but we can infer its location from its gravitational impact on light from distant galaxies.}
+      \item{Our main tool is `weak lensing' (WL)}
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+
+\begin{frame}{The effects of bending light}
+  \begin{columns}
+    \column{0.56\linewidth}
+    \begin{itemize}
+      \item{Light gets deflected by the dark matter...}
+      \item{... which moves the image of the galaxy on the sky ...}
+	\item{... and distorts it (makes it flatter i.e. more elliptical) ...}
+	\item{... and can magnify it.}
+    \end{itemize}
+    \column{0.4\linewidth}
+    \centering
+    \includegraphics[height=6cm]{diagram_1.png}
+  \end{columns}
+\end{frame}
+
+
+ 
 \end{document}
