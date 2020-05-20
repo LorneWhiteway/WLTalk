@@ -147,7 +147,7 @@
     \begin{itemize}
       \item{The dark matter clusters into large `halos' - the densest areas in the picture.}
       \item{Hydrogen gas is pulled into the densest halos, where it forms galaxies.}
-	\item{Also there are `filaments' of dark matter joining the haloes, so we get a `cosmic web'.}
+	\item{Also there are `filaments' of dark matter joining the halos, so we get a `cosmic web'.}
     \end{itemize}
     \column{0.4\linewidth}
     \centering
@@ -388,22 +388,40 @@
   \end{columns}
 \end{frame}
 
+\begin{frame}{Priors by machine learning}
+  \begin{columns}
+    \column{0.56\linewidth}
+      \begin{itemize}
+        \item{One way to get a prior is to let a machine learn by looking at many simulations \ldots}
+        \item{\ldots similar to how machines can learn to recognise (and generate new) celebrity faces.}
+        \item{My colleagues Niall Jeffrey is working on this.}
+      \end{itemize}
+    \column{0.4\linewidth}
+    \centering
+    \includegraphics[height=6cm]{diagram_6.png}
+  \end{columns}
+\end{frame}
+
 \begin{frame}{GLIMPSE algorithm}
   \begin{columns}
     \column{0.56\linewidth}
     \begin{block}{}
       \begin{itemize}
-        \item{Currently I'm using the GLIMPSE algorithm (Lanusse et al. arXiv:1603.01599)}
+        \item{I'm currently using the GLIMPSE algorithm (Lanusse et al. arXiv:1603.01599)}
         \item{This algorithm assigns a high prior probability to patterns in the dark matter density that are combinations of a small number of \textit{wavelets}.}
         \item{A wavelet is a cosine wave that has been smoothly truncated at each end.}
       \end{itemize}
     \end{block}
     \column{0.4\linewidth}
     \centering
-    \includegraphics[height=4cm]{diagram_6.png}
+    \includegraphics[height=4cm]{diagram_7.png}
   \end{columns}
 \end{frame}
 
+\begin{frame}{GLIMPSE result}
+    \centering
+    \includegraphics[height=8cm]{buzzard_192.png}
+\end{frame}
 
 
 
