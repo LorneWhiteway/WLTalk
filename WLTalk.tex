@@ -42,7 +42,7 @@
 \frame{\titlepage}
 
 
-\begin{frame}{Poll}
+\begin{frame}{Interactive content}
   \begin{block}{}
     You are invited to go to\\
     \begin{center}
@@ -59,9 +59,6 @@
   \begin{block}{}
     We can't see Dark Matter. But can we nevertheless figure out where in the Universe it is located?
   \end{block}
-  \begin{block}{}
-    And if we can, what does this tell us?
-  \end{block}
 \end{frame}
 
 \begin{frame}{Cosmology}
@@ -69,7 +66,7 @@
     Cosmology is the study of the Universe on the largest scales.
   \end{block}
   \begin{block}{}
-    Some parts of Cosmology are easy, because we can ignore all the small-scale details \ldots
+    Some parts of cosmology are easy, because we can ignore all the small-scale details \ldots
   \end{block}
 \end{frame}
 
@@ -154,7 +151,7 @@
     \end{itemize}
     \column{0.4\linewidth}
     \centering
-    \includegraphics[height=4cm]{simulation_z_1.png}
+    \includegraphics[height=5cm]{simulation_z_1.png}
   \end{columns}
 \end{frame}
 
@@ -358,12 +355,13 @@
   \end{block}
 \end{frame}
 
+
 \begin{frame}{Bayes example}
   \begin{columns}
     \column{0.56\linewidth}
     \begin{itemize}
       \item{Strangely-shaped trees? Or old glass?}
-      \item{Both explanations fit the picture equally well (same \textit{likelihood}).}
+      \item{Both explanations fit the picture equally well (same \textit{likelihood})!}
       \item{But old glass is more common than strange trees (has more \textit{prior} probability).}
       \item{So we conclude `old glass' has more \textit{posterior} probability.}
     \end{itemize}
@@ -373,6 +371,42 @@
     \includegraphics[height=6cm]{BDP1F0.jpg}
   \end{columns}
 \end{frame}
+
+
+\begin{frame}{Bayes and Weak Lensing}
+  \begin{columns}
+    \column{0.56\linewidth}
+    In weak lensing we seek an answer - i.e. a map of the dark matter - that both:
+      \begin{itemize}
+        \item{is consistent with the observed galaxy shapes, and}
+        \item{has a high prior probability (i.e. is physically plausible).}
+      \end{itemize}
+    If we don't insist on the latter condition then we end up just fitting noise.
+    \column{0.4\linewidth}
+    \centering
+    \includegraphics[height=3cm]{diagram_5.png}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{GLIMPSE algorithm}
+  \begin{columns}
+    \column{0.56\linewidth}
+    \begin{block}{}
+      \begin{itemize}
+        \item{Currently I'm using the GLIMPSE algorithm (Lanusse et al. arXiv:1603.01599)}
+        \item{This algorithm assigns a high prior probability to patterns in the dark matter density that are combinations of a small number of \textit{wavelets}.}
+        \item{A wavelet is a cosine wave that has been smoothly truncated at each end.}
+      \end{itemize}
+    \end{block}
+    \column{0.4\linewidth}
+    \centering
+    \includegraphics[height=4cm]{diagram_6.png}
+  \end{columns}
+\end{frame}
+
+
+
+
 
  
 \end{document}
